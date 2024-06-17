@@ -18,29 +18,39 @@
 
           <main class="main">
             
-             <input type="text" class="form-control" placeholder="Nombre(s)" id="nombre" >
-             <input type="text" class="form-control" placeholder="Apellidos" id="apellido">
-             <input type="text" class="form-control" placeholder="Correo" id="correo">
-            
-
-
-
+             <input type="text" class="form-control" placeholder="Nombre(s)." id="nombre" >
+             <input type="text" class="form-control" placeholder="Apellidos." id="apellido">
+             <input type="text" class="form-control" placeholder="Correo." id="correo">
              
+            <p><h3>Por favor, seleccione un horario.</h3></p>
+              
+             <div class="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
+                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
+                <label class="btn btn-outline" for="vbtn-radio1">14:30hrs-15:30hrs.</label>
+                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
+                <label class="btn btn-outline disabled" for="vbtn-radio2">16:30hrs-17:30hrs.</label>
+                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off">
+                <label class="btn btn-outline" for="vbtn-radio3">18:30hrs-20:30hrs.</label>
+              </div>
+             
+              <p><h4>Acepte los siguientes parámetros.</h4></p>
                <div class="checkboxes">
              <li><input type="checkbox" name="ckbx1" id="check-one">
-             <label class="text1" for="check-one">Aviso de privacidad</label></li>
+             <label class="text" for="check-one">Aviso de privacidad.</label></li>
 
              <li><input type="checkbox" name="ckbx2" id="check-two">
-             <label class="text2" for="check-two">Términos y condiciones</label></li>
+             <label class="text" for="check-two">Términos y condiciones.</label></li>
                </div>
-
-              
+                
+               <div class="enviar">
+               <button class="btn btn-primary" type="button" onclick="enviar()">Enviar.</button>
+               </div>
 
           </main>
 
           <footer class="footer">
-           <p><h4>!Contáctanos!</h4></p>
-             <a href="https://x.com/_Arencito_">Encuentranos aqui</a>
+           <div class="text"><p><h5>!Contáctanos!</h5></p></div>
+             <a href="https://x.com/_Arencito_">Encuentranos aqui.</a>
 
           </footer>
            
